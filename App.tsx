@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Payment from './pages/Payment';
+import Payment from './Payment';
 
 // Minimal user object for payment page
 const INITIAL_USER = {
