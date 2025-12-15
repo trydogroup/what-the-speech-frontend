@@ -15,7 +15,7 @@ const Payment: React.FC<PaymentProps> = ({ user, onSuccess }) => {
   const [backendStatus, setBackendStatus] = useState<'checking' | 'online' | 'offline'>('checking');
 
   // URL logic: If on localhost, assume standard port 3000. If deployed, use relative path.
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000/api';
+  const API_URL = "https://what-the-speech-backend.onrender.com/api";
 
   // Check Backend Status on Mount
   useEffect(() => {
