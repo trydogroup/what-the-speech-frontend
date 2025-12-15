@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ShieldCheck, CheckCircle, AlertCircle, Server, RefreshCw } from 'lucide-react';
-import { Button, Input, Card } from '../UI';
+import { Button, Input, Card } from './UI';
 import { User } from '../types';
 
 interface PaymentProps {
