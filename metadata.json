@@ -1,0 +1,7 @@
+{
+  "name": "What The Speech",
+  "description": "Professional-grade speech-to-text application with global hotkeys, licensing, and AI-powered refinement.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
